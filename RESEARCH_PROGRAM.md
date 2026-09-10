@@ -22,6 +22,21 @@ Two independent researchers should be able to calculate the same resolved state 
 4. Recover proper-time comparisons, relativity of simultaneity, and local light-cone structure.
 5. Show explicitly why ordinary controllable signals remain inside the effective light cone.
 
+### Current milestone: Toy Model 01
+
+[`models/01-clock-geometry-budget/`](models/01-clock-geometry-budget/) provides the first calculational recovery model.
+
+It uses one geometric mode, one physical clock-process mode, an arbitrary non-observable bookkeeping parameter, and a positive quadratic mode-norm constraint. From those assumptions it derives
+
+```text
+dτ² = dt² - dx²/c_*²
+c_*² = g_κ/g_x
+```
+
+and therefore recovers exact special-relativistic time dilation, an effective Lorentzian interval, and a limiting causal speed. With the standard free-particle action it also reproduces relativistic momentum, energy, the dispersion relation, and the Newtonian limit.
+
+This is a **partial Phase 2 success**, not the Phase 2 exit criterion. The model still postulates the key quadratic mode norm and uses standard effective assumptions to select Lorentz transformations. It does not yet derive relativity of simultaneity or a physical network of synchronized clocks from deeper dynamics.
+
 ### Exit criterion
 
 The toy model reproduces the relevant special-relativistic observables exactly inside its intended regime.
@@ -113,4 +128,8 @@ A candidate DEM formalization should be rejected or substantially revised if it:
 
 ## Near-term deliverable
 
-The next concrete artifact should be a **minimal formal toy model**, not another broad conceptual essay. It should define primitives, state space, resolution, metric structure, dynamics, observables, and one explicit recovery target from established physics.
+Toy Model 01 satisfies the original requirement to produce a minimal calculational artifact. The next deliverable is more demanding:
+
+> **Derive the Toy Model 01 quadratic mode-norm constraint from a smaller dynamical or symmetry principle instead of choosing it to reproduce special relativity.**
+
+A successful Model 02 should make at least one assumption in Model 01 unnecessary. Prefer an action, conservation law, symmetry, coherent-field system, or other structure whose equations force the clock/geometry relation as a first integral.

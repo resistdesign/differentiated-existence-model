@@ -15,6 +15,8 @@ DEM is deliberately conservative about claims. Established physics is treated as
 - [`THESIS.md`](THESIS.md) — current working thesis and conceptual structure.
 - [`CLAIMS.md`](CLAIMS.md) — explicit claim-status ledger separating established physics, reinterpretation, postulates, hypotheses, and tests.
 - [`RESEARCH_PROGRAM.md`](RESEARCH_PROGRAM.md) — concrete path from conceptual framework to calculational model.
+- [`models/`](models/) — explicit mathematical models.
+- [`models/01-clock-geometry-budget/`](models/01-clock-geometry-budget/) — first calculational toy model; recovers proper-time kinematics and an effective Lorentzian interval from a clock/geometry mode-norm constraint.
 - [`docs/research-notes/2026-09-10-fluid-vortex-bridge.md`](docs/research-notes/2026-09-10-fluid-vortex-bridge.md) — exploratory connection among DEM, coherent-fluid/vortex models, and recent Navier–Stokes singularity work.
 
 ## Current construction order
